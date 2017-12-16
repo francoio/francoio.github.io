@@ -80,7 +80,7 @@ $$
 
 * Pour tout $n \geq 2$, montrer que
 $$
-{\rm Var}[X]  = \sum_{i = 1}^{n-1} {\rm Var}[X_i] + 2 \sum_{i = 1}^{n-2} {\rm Cov}[X_i, X_{i+1}].
+{\rm Var}[Y_n]  = \sum_{i = 1}^{n-1} {\rm Var}[X_i] + 2 \sum_{i = 1}^{n-2} {\rm Cov}[X_i, X_{i+1}].
 $$
 
 * Calculer Var$[Y_n]$ pour tout $n \geq 2$.

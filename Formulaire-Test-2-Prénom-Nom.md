@@ -36,7 +36,7 @@ car les deux lois sont independante
 En integrant sur [0,1] on a bien P(U1<U2)=0.5
 ** ** P(U1<U2<U3)= L'union sur k variant dans [0.m]et sur m variant dans [0.1]des probabilités:P(U1=k∩U3=m∩k<U2<m)=m-k
  En integrant deux fois on obtient  P(U1<U2<U3)=1/6.
-** ** E[Yn]=∑i=1n−1E[Xi]= (n-1)E[X1]=(n-1)P(U1<U2)=0.5(n-1)
+** ** E[Yn]=0.5(n-1)
 
 
 ##### Question 4
@@ -64,7 +64,7 @@ En integrant sur [0,1] on a bien P(U1<U2)=0.5
 
 ###### Réponse : 
 
-** **On ontient l'expression demandée en utilisant la formule de developpement du carré d'une somme, et en remarquant que pour i<j :Cov(Xi,Xj) est nulle dès que j=i+2 car dès lors Xiet Xj n'ont plus de dependance.
+** **On ontient l'expression demandée en utilisant la formule de developpement du carré d'une somme, et en remarquant que pour i<j :Cov(Xi,Xj) est nulle dès que j>=i+2 car dès lors Xiet Xj n'ont plus de dependance.
 ** ** Il faut que n valent au moins:11939
 
 ##### Question 7

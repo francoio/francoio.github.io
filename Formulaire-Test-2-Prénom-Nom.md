@@ -105,6 +105,6 @@ En integrant sur [0,1] on a bien P(U1<U2)=0.5
 ###### Réponse : 
 
 
-** ** 
+** ** La densité de Z est t*sqrt(t)
 
 

@@ -1,6 +1,8 @@
 ---
 title: "Séance de travaux dirigés 9"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ** **
@@ -63,16 +65,9 @@ mean(abs(runif(100000) - runif(100000)) < 1/6)
 
 ** **
 
-##### Question 2
-
-* Même question lorsque la loi des instants d'arrivée est la loi [beta](https://fr.wikipedia.org/wiki/Loi_b%C3%AAta)($n$,$n$),  ($n = 4, 10, 20,\dots$).
-
-* Tracer un graphe de décrivant la probabilité de rencontre en fonction de la variance de cette loi. 
-
-** **
 
 
-##### Exercice 4
+##### Exercice 3
 
 Soit $X$ et $Y$ deux variables aléatoires indépendantes de loi exponentielle de paramètres respectifs $1$ et $2$. 
 
@@ -156,11 +151,7 @@ $$
 
 
 
-
-
-
-
-##### Exercice 6
+##### Exercice 5
 
 Soit $U$ et $V$ deux variables aléatoires indépendantes de loi uniforme sur $(0,1)$. Le but de ce problème est de montrer que les variables aléatoires $(1 + U)\sqrt{V}$ et $U + V$ ont même loi, sans toutefois calculer cette loi. 
 

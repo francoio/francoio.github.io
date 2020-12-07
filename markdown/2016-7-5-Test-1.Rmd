@@ -1,11 +1,13 @@
 ---
 title: "Test 1"
-output: pdf_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ** **
 
-Le formulaire de réponse [Formulaire-Test-1-Prénom-Nom.md](https://github.com/francoio/francoio.github.io) à compléter et à déposer dans TEIDE.
+Le formulaire de réponse [Formulaire-Test-1-Prénom-Nom.Rmd](https://github.com/francoio/francoio.github.io) à compléter et à déposer dans TEIDE.
 
 ** **
 
